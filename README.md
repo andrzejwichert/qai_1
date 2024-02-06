@@ -13,7 +13,7 @@ You can find installation instruction for qiskit at the site:
 Check this repository for the newest port of qiskit version. 
 
 There are following changes in qiskit 1.0 due to former versions 0.45:
-qiskit.tools.jupyter are deprecated, instead of from qiskit import Aer use from qiskit_aer import Aer, instead or execute() use run() - when using run() decompose() the circuit, for quasi probabilities instead of plot_histogram(counts) use plot_distribution(counts), instead of of bind 
+qiskit.tools.jupyter are deprecated, instead of from qiskit import Aer use from qiskit_aer import Aer, instead or execute() use run() - when using run() decompose() the circuit, for quasi probabilities instead of plot_histogram(counts) use plot_distribution(counts), instead of  bind 
 use assign.
 
 For qiskit version before 0.46 go to https://github.com/andrzejwichert/qai
