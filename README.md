@@ -10,14 +10,16 @@ Qiskit is an open-source software development kit (SDK) for working with quantum
 You can find installation instruction for qiskit at the site:
  https://qiskit.org/documentation/getting_started.html
 
+For version qiskit 1.0 also install adittionaly in your environment: pip install qiskit-aer and
+pip install qiskit-machine-learning
+
 Check this repository for the newest port of qiskit version. 
 
 There are following changes in qiskit 1.0 due to former versions 0.45:
 qiskit.tools.jupyter are deprecated, instead of from qiskit import Aer use from qiskit_aer import Aer, instead or execute() use run() - when using run() decompose() the circuit, for quasi probabilities instead of plot_histogram(counts) use plot_distribution(counts), instead of  bind 
 use assign.
 
-For version qiskit 1.0 aslo install adittionaly in your environment: pip install qiskit-aer and
-pip install qiskit-machine-learning
+
 
 For qiskit version before 0.46 go to https://github.com/andrzejwichert/qai
 
