@@ -13,7 +13,7 @@ You can find installation instruction for qiskit at the site:
 For version qiskit 1.0 also install adittionaly in your environment: pip install qiskit-aer and
 pip install qiskit-machine-learning and pip install qiskit-ibm-provider
 
-Check this repository for the newest port of qiskit version which is now version 1.0.2. Last correction, the file 5_GroversAmplification.ipynb. 
+Check this repository for the newest port of qiskit version which is now version 1.1.0. Last correction, the file 10_8-Puzzle.ipynb. 
 
 There are following changes in qiskit 1.0 due to former versions 0.45:
 qiskit.tools.jupyter are deprecated, instead of from qiskit import Aer use from qiskit_aer import Aer, instead or execute() use run() - when using run() decompose() the circuit, for quasi probabilities instead of plot_histogram(counts) use plot_distribution(counts), instead of  bind 
