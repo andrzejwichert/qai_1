@@ -14,6 +14,7 @@ For version qiskit 1.0 also install adittionaly in your environment: pip install
 pip install qiskit-machine-learning and pip install qiskit-ibm-provider
 
 Check this repository for the newest port of qiskit version which is now version 1.1.0. Last correction, the file 10_8-Puzzle.ipynb. 
+You can uppgrade your qiskit 1.0 version pip install -U qiskit. (Note that because Qiskit 1.0 uses a new packaging structure, you cannot use pip install -U qiskit to upgrade from any Qiskit 0.x version to 1.0, see https://docs.quantum.ibm.com/start/install)
 
 There are following changes in qiskit 1.0 due to former versions 0.45:
 qiskit.tools.jupyter are deprecated, instead of from qiskit import Aer use from qiskit_aer import Aer, instead or execute() use run() - when using run() decompose() the circuit, for quasi probabilities instead of plot_histogram(counts) use plot_distribution(counts), instead of  bind 
