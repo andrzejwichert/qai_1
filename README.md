@@ -1,4 +1,4 @@
-#  Quantum Artificial Intelligence with Qiskit (1.2)
+#  Quantum Artificial Intelligence with Qiskit (1.2.4)
 
 This project aims at teaching you the fundamentals of Quantum Artificial Intelligence with Qiskit. It contains the example code of my  CRC Press/Taylor & Francis book, Quantum Artificial Intelligence, Andreas Wichert, 2024 
 
@@ -10,11 +10,11 @@ Qiskit is an open-source software development kit (SDK) for working with quantum
 You can find installation instruction for qiskit at the site:
  https://qiskit.org/documentation/getting_started.html
 
-For version qiskit 1.0 also install adittionaly in your environment: pip install qiskit-aer and
+For version qiskit 1.x also install adittionaly in your environment: pip install qiskit-aer and
 pip install qiskit-machine-learning and pip install qiskit-ibm-provider
 
-Check this repository for the newest port of qiskit version which is now version 1.2 Last correction, the file 10_8-Puzzle.ipynb. 
-You can uppgrade your qiskit 1.0 version pip install -U qiskit. (Note that because Qiskit 1.0 uses a new packaging structure, you cannot use pip install -U qiskit to upgrade from any Qiskit 0.x version to 1.x, see https://docs.quantum.ibm.com/start/install)
+Check this repository for the newest port of qiskit version which is now version 1.2.4 
+You can uppgrade your qiskit 1.x version pip install -U qiskit. (Note that because Qiskit 1.x uses a new packaging structure, you cannot use pip install -U qiskit to upgrade from any Qiskit 0.x version to 1.x, see https://docs.quantum.ibm.com/start/install)
 
 There are following changes in qiskit 1.x due to former versions 0.45:
 qiskit.tools.jupyter are deprecated, instead of from qiskit import Aer use from qiskit_aer import Aer, instead or execute() use run() - when using run() decompose() the circuit, for quasi probabilities instead of plot_histogram(counts) use plot_distribution(counts), instead of  bind 
