@@ -16,7 +16,9 @@ pip install qiskit-machine-learning and pip install qiskit-ibm-provider
 Check this repository for the newest port of qiskit version which is now version 1.3.1 
 You can uppgrade your qiskit 1.x version pip install -U qiskit. (Note that because Qiskit 1.x uses a new packaging structure, you cannot use pip install -U qiskit to upgrade from any Qiskit 0.x version to 1.x, see https://docs.quantum.ibm.com/start/install)
 
-Qiskit Runtime V2, qiskit-ibm-runtime 0.23 (Estimator V2) pip install -U qiskit-ibm-runtime (updating library for quantum hardware) for Deutsch_IBM_Q.ipynb
+## Qiskit Runtime V2, qiskit-ibm-runtime 0.23 (Estimator V2) 
+
+pip install -U qiskit-ibm-runtime (updating library for quantum hardware) for Deutsch_IBM_Q.ipynb
 
 ------------------------------
 There are following changes in qiskit 1.x due to former versions 0.45:
