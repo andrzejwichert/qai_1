@@ -1,4 +1,4 @@
-#  Quantum Artificial Intelligence with Qiskit (1.3.2)
+#  Quantum Artificial Intelligence with Qiskit (1.4.1)
 
 This project aims at teaching you the fundamentals of Quantum Artificial Intelligence with Qiskit. It contains the example code of my  CRC Press/Taylor & Francis book, Quantum Artificial Intelligence, Andreas Wichert, 2024 
 
@@ -13,7 +13,7 @@ You can find installation instruction for qiskit at the site:
 For version qiskit 1.x also install adittionaly in your environment: pip install qiskit-aer and
 pip install qiskit-machine-learning and pip install qiskit-ibm-provider
 
-Check this repository for the newest port of qiskit version which is now version 1.3.2 
+Check this repository for the newest port of qiskit version which is now version 1.4.1 
 You can uppgrade your qiskit 1.x version pip install -U qiskit. (Note that because Qiskit 1.x uses a new packaging structure, you cannot use pip install -U qiskit to upgrade from any Qiskit 0.x version to 1.x, see https://docs.quantum.ibm.com/start/install)
 
 ## Qiskit Runtime V2, qiskit-ibm-runtime 0.23 (Estimator V2) 
