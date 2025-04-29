@@ -22,9 +22,9 @@ Use pip to install the desired version. Replace X.Y.Z with the version number yo
 
 pip install qiskit==X.Y.Z
 
-For exmpla to instal qiskit 1.41:
+For exmpla to instal qiskit 1.4.1:
 
-pip install qiskit==1.41
+pip install qiskit==1.4.1
 
 # For Qiskit version 2.x go to the directory
 https://github.com/andrzejwichert/qai2
