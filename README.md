@@ -4,6 +4,9 @@ This project aims at teaching you the fundamentals of Quantum Artificial Intelli
 
 http://web.tecnico.ulisboa.pt/andreas.wichert/
 
+### Additional information (with corrections!) you can find at "Quantum Artificial Intelligence Slides"
+
+http://web.tecnico.ulisboa.pt/andreas.wichert/QAI_HP/qai.htm
 
 Qiskit is an open-source software development kit (SDK) for working with quantum computers at the level of circuits and algorithms,  IBM Quantum,   https://quantum-computing.ibm.com/.
 
